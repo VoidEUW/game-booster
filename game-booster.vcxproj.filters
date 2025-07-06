@@ -18,13 +18,24 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Source\scripts\core\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts\core\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
+    <ClInclude Include="Source\scripts\core\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="scripts\core\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="frontend\example.txt" />
+    <Text Include="backend\example.txt" />
+    <Text Include="scripts\misc\example.txt" />
   </ItemGroup>
 </Project>

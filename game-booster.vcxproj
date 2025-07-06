@@ -126,10 +126,17 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="scripts\core\main.cpp" />
+    <ClCompile Include="Source\scripts\core\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
+    <ClInclude Include="scripts\core\main.h" />
+    <ClInclude Include="Source\scripts\core\main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="backend\example.txt" />
+    <Text Include="frontend\example.txt" />
+    <Text Include="scripts\misc\example.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
