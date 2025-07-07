@@ -1,0 +1,6 @@
+[![License](https://img.shields.io/github/license/VoidEUW/game-booster)](https://github.com/VoidEUW/game-booster/blob/main/LICENSE)
+[![Pre-Release](https://img.shields.io/github/v/release/VoidEUW/game-booster?include_prereleases&label=Pre-Release)](https://github.com/VoidEUW/game-booster/releases)
+[![Languages](https://img.shields.io/github/languages/top/VoidEUW/game-booster)](https://github.com/VoidEUW/game-booster)
+[![Last Commit](https://img.shields.io/github/last-commit/VoidEUW/game-booster)](https://github.com/VoidEUW/game-booster/commits/main)
+[![Open Issues](https://img.shields.io/github/issues-raw/VoidEUW/game-booster)](https://github.com/VoidEUW/game-booster/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed-raw/VoidEUW/game-booster)](https://github.com/VoidEUW/game-booster/issues?q=is%3Aissue+is%3Aclosed)
