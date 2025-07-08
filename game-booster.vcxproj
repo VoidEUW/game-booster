@@ -124,18 +124,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="scripts\configs\config.ini" />
+    <None Include="scripts\core\TODO.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="scripts\core\main.cpp" />
-    <ClCompile Include="Source\scripts\core\main.cpp" />
+    <ClCompile Include="scripts\core\Config.cpp" />
+    <ClCompile Include="scripts\core\Main.cpp" />
+    <ClCompile Include="scripts\core\ProcessManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="scripts\core\main.h" />
+    <ClInclude Include="scripts\core\Config.h" />
+    <ClInclude Include="scripts\core\ProcessManager.h" />
+    <ClInclude Include="scripts\core\Utils.h" />
     <ClInclude Include="Source\scripts\core\main.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="backend\example.txt" />
     <Text Include="frontend\example.txt" />
+    <Text Include="scripts\configs\example.txt" />
     <Text Include="scripts\misc\example.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
