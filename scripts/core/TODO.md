@@ -1,0 +1,7 @@
+- Add terminate option
+- Add a ram limiter
+- Pipe communication
+- System tray icon/config menu
+- Will need to create a config file if missing. too lazy for that rn
+- Better build menu
+- Optimize (we will be doing this faaaaar later)
